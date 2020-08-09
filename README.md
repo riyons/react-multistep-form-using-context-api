@@ -2,34 +2,22 @@
 React Multi-Step form boilerplate is a very simple implementation of how to use *__Context API + Hooks__* in your real world project. Context API is an amazing feature introduced with React version 16.3.0 that lets you avoid prop-drilling. And React-hooks let you use the React without classes.
 
 In this example, I created a simple multi-step form component with navigation buttons to *__switch the components__* inside the Multi-Step form. 
-This is a reusable Multi-Step form component, you can call the Multi-Step form component from anywhere in your React component and dynamically add your components to switch between screens. The Multi-Step form component has a dynamic progress bar that can be turned on or off based on your needs.
+This is a reusable Multi-Step form component, you can call the Multi-Step form component from anywhere in your React project and dynamically add your components to switch between screens. The Multi-Step form component has a dynamic progress bar that can be turned on or off based on your needs.
 
 #### Features
+* React Context API to Manage/Share State and Interaction between components.
 * Reusable multistep form component you can call from anywhere in your React project.
 * Easy to customize Progress bar.
 * Ability to control Navigation buttons from the child components. (In this example, if all the products in the 'Review Order' tab are removed, the 'Next' button will be disabled.)
-* Shows how to use React Context API with simple example.
 * Shows how to manage state in functional components with React Hooks.
-* Shows how to create and reuse a component in React. (Multstep form)
-* Shows how to pass state values to child components using React Context API.
-* Shows how to update state through a React Consumer.
+* Shows how to pass state values to child components using React Context API (Without Prop Drilling).
+* Shows how to update the state of the parent component through a React Consumer.
 * Reactstrap (React Bootstrap 4 components) for Styling.
 * Heroku integration for online demo.
 
 
-#### Example
+##### Sample code on how to integrate this module into your component
 ```javascript
-// ---------- src/context/OrderContext.js
-import React from "react";
-
-const OrderContext = React.createContext();
-OrderContext.displayName = "OrderContext"
-
-export default OrderContext;
-//-----------------------------------------
-
-// ----------------------------- src/App.js
-
 import React, { useState } from 'react';
 import { ShippingAddress, PaymentDetails, ReviewOrder, OrderConfirmation } from "./components/billing/index"; // Components to switch between screens.
 import MultiStepForm from "./components/common/MultiStepForm/MultiStepForm"; // Reusable react multi-form component
@@ -69,4 +57,4 @@ export default App;
 ```
 
 
-#### Online Demo
+##### Online Demo
