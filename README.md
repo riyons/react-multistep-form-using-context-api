@@ -16,7 +16,7 @@ This is a reusable Multi-Step form component, you can call the Multi-Step form c
 * Heroku integration for online demo.
 
 
-##### Sample code on how to integrate this module into your component
+#### Sample code on how to integrate this module into your component
 ```javascript
 import React, { useState } from 'react';
 import { ShippingAddress, PaymentDetails, ReviewOrder, OrderConfirmation } from "./components/billing/index"; // Components to switch between screens.
@@ -57,4 +57,4 @@ export default App;
 ```
 
 
-##### Online Demo
+#### Online Demo
