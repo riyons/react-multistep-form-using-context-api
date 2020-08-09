@@ -1,8 +1,19 @@
-.App{
-    padding-top: 5%;
-    margin:auto;
-    width: 50%;
-    padding:auto;
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */
+    .App{
+        padding-top: 5%;
+        margin:auto;
+        width: 95%;
+        padding:auto;
+    }
+}
+
+@media (min-width:961px)  { /* big landscape tablets, laptops, and desktops */
+    .App{
+        padding-top: 5%;
+        margin:auto;
+        width: 50%;
+        padding:auto;
+    }
 }
 
 .navigateBtn{

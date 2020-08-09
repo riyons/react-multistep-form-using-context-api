@@ -15,6 +15,7 @@ This is a reusable Multi-Step form component, you can call the Multi-Step form c
 * Reactstrap (React Bootstrap 4 components) for Styling.
 * Heroku integration for online demo.
 
+[Online Demo](https://riyon-react-context-multiform.herokuapp.com/)
 
 #### Sample code on how to integrate this module into your component
 ```javascript
@@ -55,6 +56,3 @@ function App() {
 export default App;
 
 ```
-
-
-#### Online Demo

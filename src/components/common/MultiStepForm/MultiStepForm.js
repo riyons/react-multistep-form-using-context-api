@@ -19,7 +19,7 @@ function MultiStepForm({ list, displayProgressBar, proceedNext = true }) {
     return (
         <>
             <div className={"wrapper wrapper-content "}>
-
+                <br />
                 <div className="row">
                     <div className="col-lg-3">
                     </div>
