@@ -6,7 +6,7 @@ This is a reusable Multi-Step form component, you can call the Multi-Step form c
 
 #### Features
 * Reusable multistep form component you can call from anywhere in your React project.
-* Shows how to use React Context API in real world project with simple example.
+* Shows how to use React Context API with simple example.
 * Shows how to manage state in functional components with React Hooks.
 * Shows how to create and reuse a component in React. (Multstep form)
 * Shows how to pass state values to child components using React Context API.
