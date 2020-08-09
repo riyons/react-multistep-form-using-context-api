@@ -1,7 +1,7 @@
 # React Reusable Multistep Form Using Context API + Hooks
 React Multi-Step form boilerplate is a very simple implementation of how to use *__Context API + Hooks__* in your real world project. Context API is an amazing feature introduced with React version 16.3.0 that lets you avoid prop-drilling. And React-hooks let you use the React without classes.
 
-In this example, I created a simple multi-step form element for a *__product checkout page__* with navigation buttons. The navigation buttons will be used to *__switch between pages__* inside the Multi-Step form. 
+In this example, I created a simple multi-step form component for a *__product checkout page__* with navigation buttons. The navigation buttons will be used to *__switch between pages__* inside the Multi-Step form. 
 This is a reusable Multi-Step form component, you can call the Multi-Step form component from anywhere in your React project and pass your components to the Multi-Step module. We use the React Context API and hooks to share the state between components and update the state from a child component. This is used to prevent unsaved changes from being lost when you navigate from one page to another. You can enable or disable the navigation buttons inside the child components. The Multi-Step form module has a dynamic progress bar that can be turned on or off based on your needs.
 
 #### Features
