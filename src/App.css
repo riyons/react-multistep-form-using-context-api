@@ -1,0 +1,95 @@
+.App{
+    padding-top: 5%;
+    margin:auto;
+    width: 50%;
+    padding:auto;
+}
+
+.navigateBtn{
+    float: right;
+}
+
+.deleteBtn{
+    float: right;
+    color: red;
+    cursor: pointer;
+}
+
+.form-container{
+   padding-top: 70px;
+   border: 1px dotted #ccc;
+   margin: 15px;
+}
+
+.number-circle{
+    font-size: small
+}
+
+/* Wizard */
+.wizard > .content > .body {
+    position: relative;
+}
+
+.wizard-h {
+    color: #b8b8b8;
+    margin-bottom: 0;
+    padding: 0;
+    position: relative;
+}
+.wizard-h::before {
+    background: #dbdbdb none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 6px;
+    left: 8%;
+    position: absolute;
+    top: 20px;
+    width: 83%;
+}
+.l-wizard-h-step {
+    float: left;
+    width: 20%;
+}
+.wizard-h .wizard-h__step, .wizard-h .wizard-h__step--previous, .wizard-h .wizard-h__step--current {
+    display: inline-block;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.wizard-h .wizard-h__step--previous {
+    color: #4d4d4d;
+}
+.wizard-h .wizard-h__step, .wizard-h .wizard-h__step--previous, .wizard-h .wizard-h__step--current {
+    display: inline-block;
+    height: auto;
+    margin-bottom: 0;
+    text-align: center;
+}
+.wizard-h .wizard-h__step .fa, .wizard-h .wizard-h__step--previous .fa, .wizard-h .wizard-h__step--current .fa {
+    background: #f5f5f5 none repeat scroll 0 0;
+    border-radius: 50%;
+    display: block;
+    font-size: 20px;
+    height: 44px;
+    left: 40%;
+    line-height: 43px;
+    position: relative;
+    width: 44px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.wizard-h .wizard-h__step--previous .fa {
+    background: #f5f5f5 none repeat scroll 0 0;
+    border: 1px solid #f5f5f5;
+    border-radius:50%;
+    text-align: center;
+}
+.wizard-h .wizard-h__step--current {
+    color: #1AB394;
+    font-weight: bold;
+}
+.wizard-h .wizard-h__step span, .wizard-h .wizard-h__step--previous span, .wizard-h .wizard-h__step--current span {
+    display: inline-block;
+}

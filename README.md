@@ -6,11 +6,15 @@ This is a reusable Multi-Step form component, you can call the Multi-Step form c
 
 #### Features
 * Reusable multistep form component you can call from anywhere in your React project.
+* Easy to customize Progress bar.
+* Ability to control Navigation buttons from the child components. (In this example, if all the products in the 'Review Order' tab are removed, the 'Next' button will be disabled.)
 * Shows how to use React Context API with simple example.
 * Shows how to manage state in functional components with React Hooks.
 * Shows how to create and reuse a component in React. (Multstep form)
 * Shows how to pass state values to child components using React Context API.
 * Shows how to update state through a React Consumer.
+* Reactstrap (React Bootstrap 4 components) for Styling.
+* Heroku integration for online demo.
 
 
 #### Example
@@ -52,7 +56,7 @@ function App() {
       <OrderContext.Provider value={{ checkoutDetails, setCheckoutDetails }}>
         <MultiStepForm
           list={componentsList}
-          displayProgressBar={true}
+          displayProgressBar={true} // Set this to false if you don't want to display the progress bar.
         />
       </OrderContext.Provider>
 
