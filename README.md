@@ -23,8 +23,8 @@ import { ShippingAddress, PaymentDetails, ReviewOrder, OrderConfirmation } from 
 import MultiStepForm from "./components/common/MultiStepForm/MultiStepForm"; // Reusable react multi-form component
 import OrderContext from './context/orderContext'; // Context API
 
-// Create an array to include the list of elements you want to include inside the multi-step form, and add the array to the reusable multi-step form component.
-// Please note that the 'headerText' and 'headerIcon' properties in the array below are optional. This is to display the title and icon in the progress bar.
+// Array object to include the list of components you want to pass into the multi-step form module.
+// Please note that the 'headerText' and 'headerIcon' properties within the Array object below are optional. These properties are used to display the title and icon in the progress bar.
 const componentsList = [
   { headerText: 'Shipping Address', headerIcon: 'fa fa-address-card', component: <ShippingAddress /> },
   { headerText: 'Payment Details', headerIcon: 'fa fa-credit-card', component: <PaymentDetails /> },
